@@ -14,7 +14,7 @@ The first step in running ngen-cal is to install ngen in your directory.
 Run the following command to clone the repository.
 
 ```sh
-git clone https://github.com/noaa-owp/ngen-cal
+git clone https://github.com/NOAA-OWP/ngen.git
 cd ngen-cal
 ```
 Use the following command to build the ngen in your directory
