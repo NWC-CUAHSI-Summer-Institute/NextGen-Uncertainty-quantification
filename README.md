@@ -15,7 +15,7 @@ Run the following command to clone the repository.
 
 ```sh
 git clone https://github.com/NOAA-OWP/ngen.git
-cd ngen-cal
+cd ngen
 ```
 Use the following command to build the ngen in your directory
 ```sh
