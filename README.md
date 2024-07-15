@@ -6,3 +6,9 @@ This repository is crtetaed by Ngen-Uncertainty quantification group for NWC sum
 
 The first step in running ngen-cal is to install ngen in your directory.
 
+Pull the source code from GitHub
+```sh
+git clone https://github.com/noaa-owp/ngen-cal
+cd ngen-cal
+```
+
