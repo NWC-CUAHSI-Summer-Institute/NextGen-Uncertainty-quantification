@@ -1,7 +1,11 @@
 # NextGen-Uncertainty-quantification
 This repository is created by the Ngen-Uncertainty quantification group for the NWC summer institute. Our research topic is:Probabilistic Streamflow Prediction Using the Model-Agnostic NextGen Framework.
 
+## Study Area
 
+Three CAMELS basins are selected in the northwest of Sacramento. These basins are chosen for their unique hydrological characteristics and the availability of comprehensive data. The selected basins are shown in the following image:
+
+![Basins DEM](https://github.com/NWC-CUAHSI-Summer-Institute/NextGen-Uncertainty-quantification/raw/main/Basins_DEM.png)
 # Tutorial to Run ngen-cal
 
 The first step in running ngen-cal is to install ngen in your directory.
