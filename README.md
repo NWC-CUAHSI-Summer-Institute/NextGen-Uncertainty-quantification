@@ -26,4 +26,13 @@ cd Python-3.9.16
 ./configure --prefix=/"home directory"/python3.9 --enable-shared
 make -j "$(nproc)"
 make install
-``` 
+```
+## ngen-cal
+You can use the ngen virtual environment to setup the calibration workflow.
+
+```sh
+https://github.com/NOAA-OWP/ngen-cal/wiki/Installing-ngen-cal
+```
+
+
+
