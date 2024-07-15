@@ -30,7 +30,7 @@ make -j "$(nproc)"
 make install
 ```
 # Testing installed ngen
-To make sure that your installed ngen works correctly you can use the following command.
+To make sure that your installed ngen works correctly you can use the following command. Supposed you have loaded routing module in your environment.
 
 ```sh
  /home-directory/ngen/cmake_build/ngen /home-directory/ngen/ubiquitous-doodle/Gage_11480390.gpkg "all" /home-directory/ngen/ubiquitous-doodle/Gage_11480390.gpkg "all" realization.json
@@ -91,6 +91,13 @@ The code is available in this directory
 ```sh
 cd /forcing
 python extract_csv_files.py
+```
+Now you need the routing module to run the ngen-cal. 
+
+Pull the source directory
+```sh
+cd /ngen
+https://github.com/NOAA-OWP/t-route.git
 ```
 
 
