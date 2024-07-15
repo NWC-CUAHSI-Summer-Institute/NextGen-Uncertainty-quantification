@@ -14,11 +14,6 @@ Run the following command to clone the repository:
 ```sh
 git clone https://github.com/NOAA-OWP/ngen.git
 
-
-## Software
-This project will rely heavily on the software development from the Office of Water Prediction, including:
-- [NextGen: Next Generati
-on Water Resources Modeling Framework](https://github.com/NOAA-OWP/ngen)
-- [NGen Calibration](https://github.com/NOAA-OWP/ngen-cal)
+## 
 
 
