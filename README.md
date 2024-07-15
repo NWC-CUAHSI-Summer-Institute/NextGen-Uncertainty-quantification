@@ -29,10 +29,22 @@ make install
 ```
 ## ngen-cal
 You can use the ngen virtual environment to setup the calibration workflow.
+To do this use this command:
 
+```sh
+python -m venv venv
+source ./venv/bin/activate
+```
+Now, pull the ngen-cal repository to your directory:
 ```sh
 https://github.com/NOAA-OWP/ngen-cal/wiki/Installing-ngen-cal
 ```
+Use the following command to install required package for calibration
+
+```sh
+pip install -e python/ngen_cal
+```
+ 
 
 
 
