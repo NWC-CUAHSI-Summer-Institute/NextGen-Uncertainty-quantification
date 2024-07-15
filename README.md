@@ -5,7 +5,7 @@ Our research topic is:Probabilistic Streamflow Prediction Using the Model-Agnost
 
 ## Tutorial to run ngen-cal
 The first step in running ngen-cal is the installed ngen in your directory.
-The :codecopy
+The 📋
 
 ## Software
 This project will rely heavily on the software development from the Office of Water Prediction, including:
