@@ -14,7 +14,15 @@ Run the following command to clone the repository:
 ```sh
 git clone https://github.com/NOAA-OWP/ngen.git
 ```
+# Installing ngen
+Use the following bash code existing in this repo to install ngen. 
+```sh
+build_ngen.sh
+./
+```
 
+
+The minimum requirement for the modules should be checked  
 
 
 
