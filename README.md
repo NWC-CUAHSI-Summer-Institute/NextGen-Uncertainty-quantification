@@ -27,6 +27,14 @@ cd Python-3.9.16
 make -j "$(nproc)"
 make install
 ```
+# Testing installed ngen
+To make sure that your installed ngen works correctly you can use the following command.
+
+```sh
+ /home-directory/ngen/cmake_build/ngen /home-directory/ngen/ubiquitous-doodle/Gage_11480390.gpkg "all" /home-directory/ngen/ubiquitous-doodle/Gage_11480390.gpkg "all" realization.json
+```
+
+
 ## ngen-cal
 You can use the ngen virtual environment to setup the calibration workflow.
 To do this use this command:
