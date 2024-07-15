@@ -1,6 +1,8 @@
-## Pronextgen Group
-The purpose of this research group is the uncertainty quantification of the forcing in streamflow prediction  using model-agnostic Nextgen framework.
+## NextGen-Uncertainty-quantification
+This repository is crtetaed by Ngen-Uncertainty quantification group for NWC summer institute Our research topic is:Probabilistic Streamflow Prediction Using the Model-Agnostic NextGen Framework.
 
-The following tutorial is prepared to show how run ngen-cal in your environment.
 
-##
+# Tutorial to Run ngen-cal
+
+The first step in running ngen-cal is to install ngen in your directory.
+
