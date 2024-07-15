@@ -63,7 +63,7 @@ wget http://lynker-spatial.s3.amazonaws.com/hydrofabric/v20.1/camels/Gage_114803
 ```
 The example of realization, config, and routing .json files exist in this repository.
 
-Pull the following reposity to make config and focrcing files using available codes for the catchments in your selected basin.
+Pull the following repository to make config files using available codes for the catchments in your selected basin.
 
 ```sh
 https://github.com/hellkite500/ubiquitous-doodle.git
@@ -74,7 +74,23 @@ Run this command to provide config and forcing files
 AWS_NO_SIGN_REQUEST=yes python ./gen_init_config.py
 ```
 
+To get some forcing data pull the following reposity:
+```sh
+git clone https://github.com/jmframe/CIROH_DL_NextGen
+```
+Use the forcing file.yaml example in this repo.
 
+Run the folloiwng command to get the forcing files for all the catchments within the basin.
+```sh
+pip install -r CIROH_DL_NextGen/forcing_prep/requirements.txt
+python CIROH_DL_NextGen/forcing_prep/generate.py forcing.yaml
+```
+You get the netCDF forcing files for the catchments. You need to run the following command to extract csv forcing files.
+The code is available in this directory
+
+```sh
+python extract_csv_files.py
+```
 
 
 
