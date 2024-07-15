@@ -113,6 +113,12 @@ cd t-route
 # In the event that compilation results do not complete and throws a Cython compile error, rerun with a non-editable flag:
 ./compiler.sh no-e
 
+# Running ngen-cal
+Now evertything is ready and you can run the following command to calibrate the model.
+
+```sh
+python -m ngen.cal config.yaml
+```
 
 
 
