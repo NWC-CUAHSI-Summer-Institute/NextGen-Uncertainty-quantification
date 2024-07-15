@@ -51,6 +51,21 @@ To get the hydrofabric geopackage use can use the following command.
 ```sh
 wget http://lynker-spatial.s3.amazonaws.com/hydrofabric/v20.1/camels/Gage_11480390.gpkg
 ```
+The example of realization, config, and routing .json files exist in this repository.
+
+Pull the following reposity to make config and focrcing files using available codes for the catchments in your selected basin.
+
+```sh
+https://github.com/hellkite500/ubiquitous-doodle.git
+cd /ubiquitous-doodle
+```
+Run this command to provide config and forcing files
+```sh
+AWS_NO_SIGN_REQUEST=yes python ./gen_init_config.py
+```
+
+
+
 
 
 
