@@ -94,11 +94,24 @@ python extract_csv_files.py
 ```
 Now you need the routing module to run the ngen-cal. 
 
-Pull the source directory
+
+# Install Required Python Modules and Routing Module
+
+Run the following commands to install the required Python modules and the routing module:
+
 ```sh
-cd /ngen
-https://github.com/NOAA-OWP/t-route.git
-```
+# Install required Python modules
+pip3 install numpy pandas xarray netcdf4 joblib toolz pyyaml Cython>3,!=3.0.4 geopandas pyarrow deprecated wheel
+
+# Clone t-route
+git clone --progress --single-branch --branch master http://github.com/NOAA-OWP/t-route.git
+
+# Compile and install
+cd t-route
+./compiler.sh
+
+# In the event that compilation results do not complete and throws a Cython compile error, rerun with a non-editable flag:
+./compiler.sh no-e
 
 
 
