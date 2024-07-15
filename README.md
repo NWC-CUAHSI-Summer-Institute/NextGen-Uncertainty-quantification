@@ -4,8 +4,8 @@ Our research topic is:Probabilistic Streamflow Prediction Using the Model-Agnost
 ![image](https://github.com/Rezamorovati/NextGen-Uncertainty-quantification/assets/123911532/2c3ceb8d-e450-4368-b5af-cc466be91b19)
 
 ## Tutorial to run ngen-cal
-The first step in running ngen-cal is the installed ngen in your directory.
-Pull the source code from Github
+The first step in running ngen-cal is the installed ngen in your directory./
+Pull the source code from Github/
 git clone https://github.com/NOAA-OWP/ngen.git
 
 ## Software
