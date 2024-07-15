@@ -89,6 +89,7 @@ You get the netCDF forcing files for the catchments. You need to run the followi
 The code is available in this directory
 
 ```sh
+cd /forcing
 python extract_csv_files.py
 ```
 
