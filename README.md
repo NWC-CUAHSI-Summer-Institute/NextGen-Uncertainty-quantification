@@ -43,8 +43,15 @@ Use the following command to install required package for calibration
 
 ```sh
 pip install -e python/ngen_cal
+pip install python/ngen_config_gen
+cd ..
 ```
- 
+To get the hydrofabric geopackage use can use the following command. 
+
+```sh
+wget http://lynker-spatial.s3.amazonaws.com/hydrofabric/v20.1/camels/Gage_11480390.gpkg
+```
+
 
 
 
