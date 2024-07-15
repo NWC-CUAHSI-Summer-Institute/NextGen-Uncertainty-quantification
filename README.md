@@ -102,17 +102,20 @@ Run the following commands to install the required Python modules and the routin
 ```sh
 # Install required Python modules
 pip3 install numpy pandas xarray netcdf4 joblib toolz pyyaml Cython>3,!=3.0.4 geopandas pyarrow deprecated wheel
-
+```
 # Clone t-route
+```sh
 git clone --progress --single-branch --branch master http://github.com/NOAA-OWP/t-route.git
-
-# Compile and install
 cd t-route
+```
+# Compile and install
+```sh
 ./compiler.sh
-
+```
 # In the event that compilation results do not complete and throws a Cython compile error, rerun with a non-editable flag:
+```sh
 ./compiler.sh no-e
-
+```
 # Running ngen-cal
 Now evertything is ready and you can run the following command to calibrate the model.
 
