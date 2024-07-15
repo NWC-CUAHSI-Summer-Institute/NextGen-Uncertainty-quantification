@@ -1,5 +1,6 @@
 ## Pronextgen Group
-The purpose of this research group is uncertainty quantification of the forcing file using model-agnostic Nextgen framework.
+The purpose of this research group is the uncertainty quantification of the forcing in streamflow prediction  using model-agnostic Nextgen framework.
 
-We provided a workflow to run ngen-cal.
+The following tutorial is prepared to show how run ngen-cal in your environment.
 
+##
