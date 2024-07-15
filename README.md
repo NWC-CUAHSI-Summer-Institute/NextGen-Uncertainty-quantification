@@ -11,7 +11,7 @@ Pull the source code from GitHub
 git clone https://github.com/noaa-owp/ngen-cal
 cd ngen-cal
 ```
-Use the following code to build the ngen in your directory
+Use the following command to build the ngen in your directory
 ```sh
 ./build_ngen
 ```
