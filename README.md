@@ -16,7 +16,9 @@ Use the following command to build the ngen in your directory
 ./build_ngen
 ```
 All the necessary modules should be loaded.
-If there is an error about a module you can install it in your directory and use export command in the build_ngen code as there are some examples in the code. 
+If there is an error about a module you can install it in your directory and use export command in the build_ngen code.
+There are some examples in the build_ngen code using export command. 
+
 For example:
 ```sh
 cd /"home directory"
