@@ -3,7 +3,7 @@ This repository is crtetaed by Ngen-Uncertainty quantification group for NWC sum
 Our research topic is:Probabilistic Streamflow Prediction Using the Model-Agnostic NextGen Framework
 ![image](https://github.com/Rezamorovati/NextGen-Uncertainty-quantification/assets/123911532/2c3ceb8d-e450-4368-b5af-cc466be91b19)
 
-## Study basins
+## Tutorial to run ngen-cal
 TODO: add descriptions of three study basins in California:
  - 11473900: MF Eel R NR Dos Rios CA
  - 11480390: Mad R AB Ruth Res NR Forest Glen CA 
