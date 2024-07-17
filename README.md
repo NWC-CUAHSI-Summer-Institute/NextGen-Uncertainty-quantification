@@ -6,7 +6,7 @@ This repository is created by the Ngen-Uncertainty quantification group for the 
 Three CAMELS basins are selected in the northwest of Sacramento. These basins are chosen for their unique hydrological characteristics and the availability of comprehensive data. The selected basins are shown in the following image.
 
 ![Basins DEM](https://github.com/NWC-CUAHSI-Summer-Institute/NextGen-Uncertainty-quantification/raw/main/Basins_DEM.png)
-# Tutorial to Run ngen-cal
+# Guide for Running ngen-cal
 
 The first step in running ngen-cal is to install ngen in your directory.
 
