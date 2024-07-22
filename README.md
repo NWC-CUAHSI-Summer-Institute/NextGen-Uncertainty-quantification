@@ -1,4 +1,4 @@
-# NextGen-Uncertainty-quantification
+# NextGen-Uncertainty-Quantification
 This repository is created by the Ngen-Uncertainty quantification group for the NWC summer institute. Our research topic is:Probabilistic Streamflow Prediction Using the Model-Agnostic NextGen Framework.
 
 ## Study Area
