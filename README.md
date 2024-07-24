@@ -133,6 +133,8 @@ Now evertything is ready, and you can run the following command to calibrate the
 ```sh
 python -m ngen.cal config.yaml
 ```
+# Acknowledgments
+We want to thank Nels Fraizer and Austin Raney for their help with running the Ngen-cal.
 
 
 
